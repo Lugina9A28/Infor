@@ -1,0 +1,116 @@
+.contanerhome {
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+h1.judulhome {
+    font-size: 50px;
+}
+nav .atas{
+    text-align: center;
+}
+header.banner {
+    text-align: justify;
+}
+header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #FFC300;
+    color: #FFFBF1;
+    text-decoration: none;
+    position:sticky;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+.banner a{
+    text-decoration: none;
+    color: #FFFBF1;
+    font-size: 25px;
+    font-weight: bold;
+}
+nav.atas a{
+    color: #FFFBF1;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+    transition: 1s;
+}
+nav.atas a:hover {
+    background-color: #FF5F00;
+    color: black;
+    border-radius: 20px 0px 20px 0px;
+    transition: 0.5s;
+    box-shadow: gray 1px 2px 1px 2px;
+}
+section.home{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.4)) ,url(keju.png);
+}
+h1 {
+    color: #FFFBF1;
+    padding-top: 180px;
+    margin-left:12px ;
+}
+p {
+    color: #FFFBF1;
+    margin-top: 3px;
+    margin-left: 12px;
+}
+body {
+    margin: 0;
+    font-family: 'Times New Roman';
+}
+nav.learn a {
+    color: #FFFBF1;
+    margin-top: 3px;
+    margin-left: 12px;
+    border-radius: 0px;
+    padding: 5px;
+    background-color: blue;
+    display: inline;
+    text-decoration: none;
+    transition: 1s;
+}
+nav.learn :hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid blue;
+    transition: 0.5s;
+}
+section.project {
+    border-radius: 5cm;
+    background-color: #FF8C00;
+    text-align: center;
+    color: #FFFBF1;
+    padding: 7px;
+    margin: 100px;
+
+}
+.kotakalatbahan {
+    display: flex;
+    justify-content: space-between;
+}
+.alat {
+    width: 45%;
+    border-radius: 20px;
+    background-color: #FF8C00;
+    color: #FFFBF1;
+    display: inline-block;
+    padding: 5px;
+}
+.bahan {
+    width: 45%;
+    border-radius: 20px;
+    background-color: #FF8C00;
+    color: #FFFBF1;
+    display: inline-block;
+    padding: 5px;
+}
